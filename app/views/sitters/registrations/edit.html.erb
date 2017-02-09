@@ -1,3 +1,6 @@
+<div class="jumbotron background sign-up-background">
+  <div class="container">
+    <div class="sign-up info col-md-6 col-md-offset-3">
 <div class="container">
 <h2>Edit Pup Friend Profile</h2>
 
@@ -57,10 +60,16 @@
 
   </div>
 <% end %>
+
 <hr>
 <br>
+<div class="cancel-acct">
 <p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete, class:"btn btn-danger" %></p>
 
 <%= link_to "Back", :back %>
+</div>
 
+</div>
+</div>
+</div>
 </div>

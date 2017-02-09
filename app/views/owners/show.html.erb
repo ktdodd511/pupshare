@@ -1,8 +1,9 @@
-<div class="navPadding">
+<div class="separator">
 <div class="top-margin">
 	<div class="container">
+
 	    <div class="row product">
-	        <div class="col-md-5 col-md-offset-0"><%= image_tag(@owner.avatar.url, class: "dog-show-img")%></div>
+	        <div class="col-md-5 col-md-offset-0"><%= image_tag(@owner.avatar.url(:medium), class: "dog-show-img")%></div>
 	        <div class="col-md-7">
 	            <h2><%= @owner.first %> <%= @owner.last %></h2>
 	            <p><%= @owner.description %></p><br>
