@@ -14,3 +14,11 @@
  *= require_tree .
  *= require_self
  */
+
+.alert {
+  text-align: center;
+}
+
+.navPadding{
+  padding-top: 50px;
+}
